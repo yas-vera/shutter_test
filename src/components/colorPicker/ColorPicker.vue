@@ -26,6 +26,7 @@ const selectColor = (color: string, index: number) => {
     selectedColorIndex.value = index;
     showTooltip.value = false;
     emits('update', color);
+    console.log('test')
   }
 </script>
 <template>
