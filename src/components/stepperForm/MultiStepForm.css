@@ -1,0 +1,108 @@
+.draggable {
+  position: absolute;
+}
+
+.stepperContent {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 169;
+}
+
+.headerStepper {
+  flex: 0 0 10%;
+  background-color: #131319;
+}
+
+.bodyStepper {
+  flex: 1;
+  background-color: #131319;
+  overflow-y: auto;
+  scrollbar-color: #131319 #42425a; 
+}
+
+.stepContent {
+  height: auto;
+}
+
+.footerStepper {
+  flex: 0 0 10%;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding: 10px 30px 10px 30px;
+  background-color: #131319;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerContentNoMoved {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.headerContentMoved {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.headerContentMoved:hover {
+  cursor: move;
+}
+
+.headerContentMoved:active {
+  cursor: grabbing;
+}
+
+.headerIcons {
+  display: flex;
+  cursor: default;
+  padding: 10px 10px;
+}
+
+.stepperNumber {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 10px 25px;
+  width: 100%;
+}
+
+.stepperNumberContent {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+
+}
+
+.stepperNumberContentEnd {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonNext button {
+  width: 100px !important;
+}
+
+.marginTopInputStepForm {
+  margin-top: 10px;
+}
+
+.stepperContentMinus {
+  display: flex;
+  position: fixed;
+  z-index: 169;
+  background-color: #131319;
+  bottom: 40px;
+  justify-content: end;
+  width: 225px;
+  white-space: nowrap;
+} 
+

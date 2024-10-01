@@ -1,0 +1,1 @@
+export type Status = 'NOMINAL' | 'MAINTENANCE' | 'INCIDENT' | 'OUTAGE';

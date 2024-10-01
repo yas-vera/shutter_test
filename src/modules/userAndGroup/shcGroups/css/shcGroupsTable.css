@@ -1,0 +1,22 @@
+.colorItemList-dropdown {
+    background-color: white;
+  }
+  
+  .colorItemList-dropdown .qtm-menu-item-label {
+    color: black !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .container-drop-overlay {
+    padding: 5px 15px;
+  }
+  
+  .container-icon-right {
+    margin-right: 2px;
+    margin-top: -7px
+  }
+  .container-icon-right-first {
+    margin-right: 8px;
+    margin-top: -7px;
+  }

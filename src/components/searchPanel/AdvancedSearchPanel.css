@@ -1,0 +1,115 @@
+.containerSearchPanel {
+    position: fixed;
+    width: 100%;
+    background-color: #131319;
+    padding: 20px;
+    z-index: 150;
+}
+.buttons-container {
+    position: relative;
+    bottom: 5px;
+    margin-top: 60px;
+    align-items: end;
+    justify-content: start;
+    right: 0;
+    display: flex;
+    gap: 9px;
+}
+.grid-container {
+    overflow-x: auto;
+    width: 100%;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #3b3d50 #1c1d26;
+    position: relative;
+}
+.search-advance-row-1 {
+    display: flex;
+    width: 100%;
+}
+.search-advance-row-2 {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+.search-advance-row-3 {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.marginTopInput {
+    margin-top: 20px;
+}
+.height-input input {
+  height: 48px !important;
+}
+.twoInputGroup {
+    display: flex;
+    gap: 22px;
+    justify-content: space-between;
+}
+.w-498 {
+    width: 498px;
+}
+.w-160 {
+    width: 160px;
+}
+@media screen and (max-width: 1440px) {
+    /* .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        gap: 30px;
+    }
+    .buttons-container {
+        position: relative;
+        bottom: 0px;
+        margin-top: 24px;
+        align-items: end;
+        justify-content: start;
+        right: 0;
+        display: flex;
+        gap: 9px;
+    } */
+}
+@media screen and (max-width: 1024px) {
+    /* .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+        gap: 30px;
+        overflow-y: auto;
+    }
+    .marginTopInput {
+        margin-top: 20px;
+    }
+    .buttons-container {
+        position: relative;
+        bottom: 0px;
+        margin-top: 24px;
+        align-items: end;
+        justify-content: start;
+        right: 0;
+        display: flex;
+        gap: 9px;
+    } */
+}
+@media screen and (max-width: 768px) {
+    /* .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        overflow-y: auto;
+    }
+    .buttons-container {
+        position: relative;
+        
+        bottom: 0px;
+        margin-top: 24px;
+        align-items: end;
+        justify-content: start;
+        right: 0;
+        display: flex;
+        gap: 9px;
+    } */
+}
+

@@ -1,0 +1,42 @@
+.filter-menu .filter-menu-list-checkbox-custom{
+    padding: 5px;
+    max-height: 90px;
+    margin-top: 14px;
+    overflow: auto;
+    scrollbar-width: thin;
+    
+  }
+  .containerUser {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    flex-direction: column; 
+    z-index: 142;
+  }
+  .content {
+    position: relative;
+    flex: 1;
+    height: auto;
+  }
+  .button-export-user-and-groups {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 23px;
+  }
+  .user-table-container {
+    overflow: auto; 
+    max-height: 90% !important;
+    scrollbar-width: thin;
+    scrollbar-color: #3b3d50 #1c1d26;
+  }
+  
+  .container-select-2 {
+    display: block;
+    width: 100%;
+  }
+  
+  .min-table {
+    min-width: 1400px !important;
+  }
